@@ -8,7 +8,7 @@ from okta.models.user import User
 '''
 Setting up your enviroment where the script will run
 
-Tenant: app your sudomain data to the {{url}}
+Tenant: add your sudomain data to the {{url}}
 ::API_Token:: - Replace it with the token you create by following this link: https://developer.okta.com/docs/api/getting_started/getting_a_token
 '''
 usersClient = UsersClient("https://{{url}}.okta.com", "API_Token")
